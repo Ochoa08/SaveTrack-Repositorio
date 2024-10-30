@@ -8,6 +8,7 @@
 
 body {
     background-color: #576089;
+    overflow-x: hidden;  /*Nuevo*/
 }
 
 /*Sección barra*/
@@ -72,8 +73,9 @@ li a:hover{
 
 .imgBanner {
     width: 1920px; 
-    height: auto; 
+    height: 700px; 
     border-radius: 0px;
+    object-fit: cover;
 }
 
 /*Sección Descripciones*/
@@ -214,4 +216,11 @@ footer {
 .parte-inferior-footer {
     text-align: center; 
     margin-top: 50px; 
+}
+
+.redes-sociales img {
+    width: 80px; 
+    height: 80px;
+    pointer-events: none; 
+    cursor: default; 
 }
